@@ -20,12 +20,12 @@ const detailOrQuote =
 
 const About = () => {
   return (
-    <section className="padding" id="about" style={{ position: 'relative', padding: '4rem 0' }}>
+    <section className="padding" id="about" style={{ position: "relative", padding: "4rem 0"}}>
       <img
         className="background"
         src={image}
         alt={imageAltText}
-        style={{ width: '100%', height: 'auto', objectFit: 'cover', position: 'absolute', top: 0, left: 0, zIndex: -1 }}
+        style={{ width: "100%", height: "auto", objectFit: "cover", position: "absolute", top: 0, left: 0, zIndex: -1 }}
       />
       <div
         style={{
@@ -35,12 +35,12 @@ const About = () => {
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
-          position: 'relative',
+          position: "relative",
           zIndex: 1,
         }}
       >
         <h2>About Myself</h2>
-        <p style={{ fontSize: '1.25rem', margin: '1rem 0' }}>{description}</p>
+        <p style={{ fontSize: "1.25rem", margin: "1rem 0" }}>{description}</p>
         <hr />
         <ul
           style={{
@@ -49,13 +49,13 @@ const About = () => {
             margin: "2rem 3rem",
             padding: 0,
             listStyleType: "none",
-            display: 'grid',
-            gap: '1rem',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+            display: "grid",
+            gap: "1rem",
+            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
           }}
         >
           {skillsList.map((skill) => (
-            <li key={skill} style={{ marginBottom: '0.5rem' }}>{skill}</li>
+            <li key={skill} style={{ marginBottom: "0.5rem" }}>{skill}</li>
           ))}
         </ul>
         <hr />
