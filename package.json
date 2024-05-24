@@ -5,20 +5,20 @@
   "source": "src/index.html",
   "homepage": "http://Mdkamran2023.github.io/aadi_react_resumes",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'http://Mdkamran2023.github.io/aadi_react_resumes'",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "build-gh": "parcel build src/index.html --public-url 'http://Mdkamran2023.github.io/aadi_react_resumes'",
+    "predeploy": "npm run build-gh",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/Mdkamran2023/aadi_react_resumes.git"
   },
   "author": "Microsoft",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/Mdkamran2023/aadi_react_resumes/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
